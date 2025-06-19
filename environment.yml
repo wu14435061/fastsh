@@ -1,0 +1,10 @@
+name: myenv
+channels:
+  - defaults
+dependencies:
+  - python=3.13
+  - pandas
+  - pip
+  - pip:
+      - tqdm
+      - requests
